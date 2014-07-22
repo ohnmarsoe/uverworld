@@ -1,0 +1,957 @@
+@import "compass";
+@charset "utf-8";
+/*------------------------------------------------------------
+	post style
+------------------------------------------------------------*/
+
+/*----- 記事中 -----*/
+
+#post-inner .article-content p {
+	color: #3d3a3b;
+	font-size: 14px;
+	line-height: 28px;
+	padding-bottom: 30px;
+	
+	word-break: break-all;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+}
+#post-inner .article-content b,
+#post-inner .article-content strong {
+	font-weight: bold;
+	
+}
+
+#post-inner .article-content h2 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 30px;
+	line-height: 42px;
+	border-left: 5px solid #314c74;
+	padding: 10px 10px 12px 30px;
+	margin-top: 23px;
+	margin-bottom: 30px;
+	/**/
+	margin-left: 0;
+}
+#post-inner .article-content h3 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 26px;
+	line-height: 38px;
+	
+	border-left: 5px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+	
+	padding: 11px 10px 16px 30px;
+	margin-top: 23px;
+	margin-bottom: 30px;
+	
+}
+#post-inner .article-content h3:first-child {
+	margin-top: 0;
+}
+#post-inner .article-content h4 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 23px;
+	line-height: 34px;
+	
+	border-left: 5px solid #d6d6d6;
+	padding: 9px 10px 8px 26px;
+	margin-top: 23px;
+	margin-bottom: 32px;
+	
+}
+#post-inner .article-content h5 {
+	font-weight: bold;
+	color: #252122;
+	font-size: 18px;
+	line-height: 32px;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#post-inner .article-content h6 {
+	font-weight: bold;
+	color: #252122;
+	font-size: 16px;
+	line-height: 28px;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*-----リンク-----*/
+#post-inner .article-content a,
+#post-inner .article-content a:visited {
+	color: #0385df;
+	font-style: normal;
+	text-decoration: none;
+	
+	word-break: break-all;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+}
+#post-inner .article-content a:hover {
+	
+	text-decoration: underline;
+}
+
+
+/*-------引用--------*/
+#post-inner .article-content blockquote {
+	background: url(../img/post/blog_inyo_l.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+	background-color: #f4f4f4;
+	border-left: 0;
+	
+	margin-top: 14px;
+	margin-bottom: 60px;
+	
+	/**/
+	padding: 54px 97px 17px 152px;
+	margin-left: -97px;
+	margin-right: -97px;
+}
+
+#post-inner .article-content blockquote {
+	font-style: italic;
+}
+
+/*-------区切り線--------*/
+#post-inner .article-content hr {
+    border: 0;
+    height: 1px;
+    background: #dcdcdc;
+	margin-bottom: 36px;
+}
+
+
+
+/*----リスト----*/
+#post-inner .article-content ul {
+	list-style-type:disc;
+	margin-left:24px;
+	
+	padding-bottom: 29px;
+}
+
+#post-inner .article-content ol {
+	list-style-type:decimal;
+	margin-left:24px;
+	
+	padding-bottom: 29px;
+}
+
+#post-inner .article-content ol li,
+#post-inner .article-content ul li {
+	font-size: 14px;
+	line-height: 29px;
+	
+}
+/*----そのた文字----*/
+#post-inner .article-content p.listtitle {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#post-inner .article-content span.font-small,
+#post-inner .article-content p.font-small {
+	font-size: 12px !important;
+	line-height: 24px !important;
+	
+	padding-bottom: 29px;
+}
+#post-inner .article-content span.font-big,
+#post-inner .article-content p.font-big {
+	font-size: 22px !important;
+	line-height: 28px !important;
+	
+	padding-bottom: 29px;
+}
+
+#post-inner .article-content sup,
+#post-inner .article-content sub  {
+	font-size: 11px !important;
+	line-height: 18px !important;
+}
+
+/*----イメージ----*/
+#post-inner .article-content img.alignnone,
+#post-inner .article-content img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#post-inner .article-content img.size-thumbnail,
+#post-inner .article-content img.size-large,
+#post-inner .article-content img.size-full,
+#post-inner .article-content img.size-medium,
+#post-inner .article-content img.aligncenter,
+#post-inner .article-content img.alignnone {
+	/*
+	width: 100% !important;
+	max-width: 570px;
+	height: auto;
+	*/
+	max-width: 100%;
+	height: auto;
+}
+
+#post-inner .article-content blockquote img.size-thumbnail,
+#post-inner .article-content blockquote img.size-large,
+#post-inner .article-content blockquote img.size-full,
+#post-inner .article-content blockquote img.size-medium,
+#post-inner .article-content blockquote img.aligncenter,
+#post-inner .article-content blockquote img.alignnone {
+	/*
+	width: 100% !important;
+	max-width: 570px;
+	height: auto;
+	*/
+	max-width: 100%;
+	height: auto;
+}
+
+#post-inner .article-content .wp-caption {
+	/*width: auto !important;*/
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#post-inner .article-content blockquote .wp-caption {
+	/*width: auto !important;*/
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#post-inner .article-content .wp-caption-text {
+	font-weight: normal;
+	font-size: 12px !important;
+	line-height: 24px !important;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+
+/*---- code ----*/
+
+#post-inner .article-content pre {
+	background: url(../img/post/blog_samplecode.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+	font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+	font-size: 11px;
+	color: #080705;
+	line-height: 20px;
+	margin-bottom: 30px;
+	overflow-x: auto;
+	padding: 40px 30px 40px 30px;
+	font-style: italic;
+	
+}
+
+/*---- video ----*/
+
+#post-inner .article-content .vvqbox {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	width: 100% !important;
+	height: 0 !important;
+	margin: 12px auto 42px;
+	overflow: hidden;
+}
+
+#post-inner .article-content .vvqbox object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+/*padding: 55px 62px 80px 63px;*/
+
+#post-inner .article-content blockquote {
+	padding: 46px 62px 17px 143px;
+	margin-left: -63px;
+	margin-right: -62px;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+#post-inner .article-content h2 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 30px;
+	line-height: 42px;
+	border-left: 5px solid #314c74;
+	
+	margin-top: 23px;
+	margin-bottom: 30px;
+	/**/
+	padding: 10px 10px 12px 30px;
+	margin-left: 0;
+}
+#post-inner .article-content h3 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 26px;
+	line-height: 38px;
+	
+	border-left: 5px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+	
+	padding: 11px 10px 16px 30px;
+	margin-top: 23px;
+	margin-bottom: 30px;
+	
+}
+#post-inner .article-content h4 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 23px;
+	line-height: 34px;
+	
+	border-left: 5px solid #d6d6d6;
+	padding: 9px 10px 8px 26px;
+	margin-top: 23px;
+	margin-bottom: 32px;
+	
+}
+#post-inner .article-content h5 {
+	
+	font-size: 16px;
+	line-height: 28px;
+	
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+#post-inner .article-content h6 {
+	
+	font-size: 15px;
+	line-height: 26px;
+	
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+#post-inner .article-content blockquote {
+	background: url(../img/post/blog_inyo_l.png);
+	background-repeat: no-repeat;
+	background-position: -10px top;
+	
+	background-color: #f4f4f4;
+	border-left: 0;
+	
+	margin-top: 14px;
+	margin-bottom: 60px;
+	
+	/**/
+	padding: 46px 50px 17px 120px;
+	margin-left: -32px;
+	margin-right: -32px;
+}
+
+
+}
+
+@media screen and (max-width: 568px) {
+	
+/*#post-inner {padding: 25px 16px 60px;}*/
+#post-inner .article-content {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
+#post-inner .article-content p {
+	color: #3d3a3b;
+	font-size: 13px;
+	line-height: 24px;
+	padding-bottom: 24px;
+}
+
+#post-inner .article-content h2 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 22px;
+	line-height: 30px;
+	border-left: 5px solid #314c74;
+	
+	margin-top: 11px;
+	margin-bottom: 30px;
+	/**/
+	padding: 15px 10px 15px 20px;
+	margin-left: -20px;
+}
+#post-inner .article-content h3 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 20px;
+	line-height: 30px;
+	
+	border-left: 5px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+	
+	padding: 11px 10px 16px 20px;
+	margin-top: 13px;
+	margin-bottom: 24px;
+	/**/
+	margin-left: -20px;
+	
+}
+#post-inner .article-content h4 {
+	font-weight: normal;
+	color: #252122;
+	font-size: 19px;
+	line-height: 26px;
+	
+	border-left: 5px solid #d6d6d6;
+	padding: 8px 10px 7px 21px;
+	margin-top: 13px;
+	margin-bottom: 24px;
+	/**/
+	margin-left: -20px;
+}
+#post-inner .article-content h5 {
+	
+	font-size: 15px;
+	line-height: 26px;
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#post-inner .article-content h6 {
+	
+	font-size: 14px;
+	line-height: 26px;
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#post-inner .article-content blockquote {
+	background: url(../img/post/blog_inyo_s.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+	background-color: #f4f4f4;
+	border-left: 0;
+	
+	margin-top: 14px;
+	margin-bottom: 45px;
+	
+	/**/
+	padding: 76px 30px 17px 30px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+
+
+#post-inner .article-content ul {
+	padding-bottom: 24px;
+}
+
+#post-inner .article-content ol {
+	padding-bottom: 24px;
+}
+
+#post-inner .article-content ol li,
+#post-inner .article-content ul li {
+	font-size: 13px;
+	line-height: 22px;
+	
+}
+#post-inner .article-content p.listtitle {
+	padding-bottom: 8px;
+}
+
+#post-inner .article-content span.font-small,
+#post-inner .article-content p.font-small {
+	font-size: 12px !important;
+	line-height: 24px !important;
+	
+	padding-bottom: 24px;
+}
+#post-inner .article-content span.font-big,
+#post-inner .article-content p.font-big {
+	font-size: 18px !important;
+	line-height: 26px !important;
+	
+	padding-bottom: 24px;
+}
+
+#post-inner .article-content sup,
+#post-inner .article-content sub  {
+	font-size: 11px !important;
+	line-height: 16px !important;
+}
+
+
+#post-inner .article-content .wp-caption-text {
+	font-weight: normal;
+	font-size: 11px !important;
+	line-height: 18px !important;
+	margin-top: 5px;
+	padding-bottom: 24px;
+}
+
+#post-inner #hubspot-head .hbspt-block {
+	padding: 20px 10px 10px;
+}
+#post-inner #hubspot-head .hbspt-block .cta-btn {
+	background: 0;
+	padding: 0 10px 10px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+	
+
+}
+
+
+
+/* btn */
+#post-inner .btn-wrap {
+	margin-bottom: 40px;
+	background-color: #f4f4f4;
+	padding: 34px 40px 50px;
+	text-align: center;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+#post-inner .single-btn {
+	background: none;
+	margin-bottom: 0;
+}
+
+#post-inner .single-btn p {
+	word-break: normal;
+}
+
+#post-inner .btn-wrap p.txt {
+	font-weight: bold;
+	color: #4d4f51;
+	font-size: 18px;
+	line-height: 30px;
+	text-shadow: 0 1px 0 #fff;
+	margin-bottom: 22px;
+}
+
+#post-inner .single-btn p.txt,
+#post-inner #btn-download-wrap p.txt,
+#post-inner #btn-contact-wrap p.txt {
+	padding: 0 70px;
+}
+
+#post-inner .single-btn p.btn,
+#post-inner #btn-download-wrap p.btn,
+#post-inner #btn-contact-wrap p.btn {
+	padding: 0 105px;
+}
+
+#post-inner .btn-wrap p.btn a {
+	display: block;
+	color: #fff;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 -2px 0 rgba(0,0,0,0.2);
+	
+	padding: 24px 30px 24px;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-ms-border-radius: 14px;
+	-o-border-radius: 14px;
+	border-radius: 14px;
+	
+	width: 100%;
+	height: auto;
+	
+	text-decoration: none;
+	opacity: 1;
+
+}
+#post-inner .btn-wrap p.btn a:hover {
+	opacity: 0.9;
+}
+
+#post-inner #btn-contact-wrap p.btn a {
+	background: #314c74;
+}
+
+#post-inner .single-btn p.btn a,
+#post-inner #btn-download-wrap p.btn a {
+	background: #3f7bb8;
+}
+
+
+@media screen and (max-width: 1280px) {
+#post-inner .single-btn p.txt,
+#post-inner #btn-download-wrap p.txt,
+#post-inner #btn-contact-wrap p.txt {
+	padding: 0 70px;
+}
+
+#post-inner .single-btn p.btn,
+#post-inner #btn-download-wrap p.btn,
+#post-inner #btn-contact-wrap p.btn {
+	padding: 0 0;
+}
+
+}
+@media screen and (max-width: 1024px) {
+
+#post-inner .single-btn p.txt,
+#post-inner #btn-download-wrap p.txt,
+#post-inner #btn-contact-wrap p.txt {
+	padding: 0 70px;
+}
+
+#post-inner .single-btn p.btn,
+#post-inner #btn-download-wrap p.btn,
+#post-inner #btn-contact-wrap p.btn {
+	padding: 0 40px;
+}
+
+}
+@media screen and (max-width: 900px) {
+
+#post-inner .btn-wrap p.txt {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 26px;
+}
+
+
+#post-inner .single-btn p.txt,
+#post-inner #btn-download-wrap p.txt,
+#post-inner #btn-contact-wrap p.txt {
+	padding: 0 0;
+}
+
+#post-inner .single-btn p.btn,
+#post-inner #btn-download-wrap p.btn,
+#post-inner #btn-contact-wrap p.btn {
+	padding: 0 0;
+}
+
+}
+
+@media screen and (max-width: 568px) {
+#post-inner .btn-wrap {
+	margin-bottom: 20px;
+	padding: 19px 20px 26px;
+	margin: 0 -4px;
+}
+
+#post-inner .btn-wrap p.txt {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 18px;
+}
+
+#post-inner .btn-wrap p.btn a {
+	font-size: 19px;
+	line-height: 26px;
+	padding: 16px 30px 16px;
+}
+
+}
+
+
+
+/* about account figure */
+#post-inner .fig-account {
+	margin-top: 30px;
+}
+#post-inner p + .fig-account {
+	margin-top: 23px;
+}
+
+#post-inner .fig-account .flo-img {
+	float: right;
+	margin-left: 30px;
+	margin-right: 0;
+	
+	width: 210px;
+	height: auto;
+	
+	margin-bottom: 20px;
+}
+#post-inner .fig-account .flo-txt {
+	float: left;
+	width: 100%;
+	margin-right: -240px;
+	
+}
+
+#post-inner .fig-account .flo-txt h3,
+#post-inner .fig-account .flo-txt p {
+	margin-right: 240px;
+}
+
+#post-inner .fig-account .flo-txt > h3 {
+	margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+#post-inner .fig-account .flo-img {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-bottom: 30px;
+}
+#post-inner .fig-account .flo-txt {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+	
+}
+
+#post-inner .fig-account .flo-txt h3,
+#post-inner .fig-account .flo-txt p {
+	margin-right: 0;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+#post-inner .fig-account .flo-img {
+	float: right;
+	margin-left: 30px;
+	margin-right: 0;
+	
+	margin-bottom: 20px;
+}
+#post-inner .fig-account .flo-txt {
+	float: left;
+	width: 100%;
+	margin-right: -240px;
+}
+
+#post-inner .fig-account .flo-txt h3,
+#post-inner .fig-account .flo-txt p {
+	margin-right: 240px;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+#post-inner .fig-account .flo-img {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-bottom: 30px;
+}
+#post-inner .fig-account .flo-txt {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+	
+}
+
+#post-inner .fig-account .flo-txt h3,
+#post-inner .fig-account .flo-txt p {
+	margin-right: 0;
+}
+
+}
+
+
+@media screen and (max-width: 568px) {
+#post-inner .fig-account {
+	margin-top: 20px;
+}
+#post-inner p + .fig-account {
+	margin-top: 13px;
+}
+
+}
+
+
+
+/* 規約ページ
+---------------------------------------*/
+#kiyaku  #post-inner .article-content {
+	padding-top: 42px;
+	padding-bottom: 0;
+}
+#kiyaku #post-inner h1 {
+	color: #252122;
+	font-size: 30px;
+	line-height: 40px;
+	
+	display: block;
+	position: relative;
+	
+	/*border-left: 5px solid #314c74;*/
+	padding: 5px 0 0 0;
+	
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+#kiyaku #post-inner .article-content p {
+	color: #3d3a3b;
+	font-size: 14px;
+	line-height: 27px;
+	padding: 0 2px 20px;
+}
+
+
+/* h2 */
+#kiyaku #post-inner .article-content h2 {
+	color: #252122;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	border-left: 0;
+	
+	padding: 0;
+	margin-left: 0;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#kiyaku #post-inner .article-content ol li,
+#kiyaku #post-inner .article-content ul li {
+	color: #3d3a3b;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+/**/
+#kiyaku #post-inner .article-content span {
+	display: inline-block;
+}
+#kiyaku #post-inner .article-content span.mb10 {
+	margin-bottom: 10px;
+}
+#kiyaku #post-inner .article-content ol span {
+	display: inline-block;
+	padding: 5px;
+	font-size: 13px;
+	line-height: 22px;
+}
+
+/**/
+#kiyaku #post-inner .article-content ol li ol.paren {
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+#kiyaku #post-inner .article-content ol.paren {
+	margin-left: 0;
+}
+#kiyaku #post-inner .article-content ol.paren li {
+	list-style-type:none;
+	list-style-position:inside;
+	counter-increment: cnt;
+	margin-left: 28px;
+}
+#kiyaku #post-inner .article-content ol.paren li:before{
+	display: marker;
+	content: "(" counter(cnt) ")";
+	margin-left: -26px;
+	padding-right: 8px;
+}
+#kiyaku #post-inner .article-content p + ul {
+	margin-top: -14px;
+}
+#kiyaku #post-inner .article-content p.mt20 {
+	padding-top: 20px;
+}
+#kiyaku #post-inner .article-content p.align-right {
+	text-align: right;	
+}
+
+@media screen and (max-width: 768px) {
+#kiyaku  #post-inner .article-content {
+	padding-top: 38px;
+}
+#kiyaku #post-inner h1 {
+	font-size: 28px;
+	line-height: 40px;
+	
+	
+}
+#kiyaku #post-inner h1:before {
+	left: 36px;
+	right: 0;
+	bottom: -14px;
+}
+	
+}
+
+@media screen and (max-width: 568px) {
+#kiyaku  #post-inner .article-content {
+	padding-top: 26px;
+}
+#kiyaku #post-inner h1 {
+	font-size: 24px;
+	line-height: 34px;
+	
+	
+}
+#kiyaku #post-inner .article-content ol li,
+#kiyaku #post-inner .article-content ul li {
+	font-size: 13px;
+	line-height: 24px;
+}
+#kiyaku #post-inner .article-content p {
+	font-size: 13px;
+	line-height: 24px;
+	padding: 0 0 16px;
+}
+
+#kiyaku #post-inner .article-content span {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+}
+
+
+
+
+
+
+
+

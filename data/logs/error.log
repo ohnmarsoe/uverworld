@@ -1,0 +1,143 @@
+2014/07/16 03:06:28 [/uverworld/html/entry/index.php] Warning(E_WARNING): Missing argument 2 for SC_Helper_Mail::sfMakeSubject(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/entry/LC_Page_Entry.php on line 252 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/helper/SC_Helper_Mail.php(250)] from ::1
+2014/07/16 03:07:00 [/uverworld/html/shopping/deliv.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/Applications/MAMP/htdocs/uverworld/data/class/pages/shopping/LC_Page_Shopping_Deliv.php(156)] from ::1
+2014/07/16 03:09:08 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(459)] from ::1
+2014/07/16 03:09:08 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(636)] from ::1
+2014/07/16 03:09:08 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(700)] from ::1
+2014/07/16 03:09:08 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(712)] from ::1
+2014/07/16 03:09:08 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(756)] from ::1
+2014/07/16 03:11:06 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(459)] from ::1
+2014/07/16 03:11:06 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(636)] from ::1
+2014/07/16 03:11:06 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(700)] from ::1
+2014/07/16 03:11:06 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(712)] from ::1
+2014/07/16 03:11:06 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(756)] from ::1
+2014/07/16 03:33:57 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/16 03:35:31 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/16 03:36:40 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/16 03:37:46 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/16 03:43:42 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/16 04:06:12 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:06:12 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:06:12 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:06:12 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:06:12 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:06:12 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:05 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:05 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:05 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:05 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:05 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:05 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:18 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:18 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:18 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:18 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:18 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:07:18 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:35 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:35 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:35 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:35 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:35 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:35 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:38 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:38 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:38 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:38 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:38 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:09:38 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/16 04:40:40 [/uverworld/html/admin/products/review.php] Warning(E_WARNING): Illegal string offset 'value' on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%34^344^344B2CC6%%review.tpl.php(221)] from ::1
+2014/07/16 04:40:43 [/uverworld/html/admin/products/review.php] Warning(E_WARNING): Illegal string offset 'value' on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%34^344^344B2CC6%%review.tpl.php(221)] from ::1
+2014/07/16 04:40:45 [/uverworld/html/admin/products/review.php] Warning(E_WARNING): Illegal string offset 'value' on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%34^344^344B2CC6%%review.tpl.php(221)] from ::1
+2014/07/16 04:43:04 [/uverworld/html/admin/products/review.php] Warning(E_WARNING): Illegal string offset 'value' on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%34^344^344B2CC6%%review.tpl.php(221)] from ::1
+2014/07/16 04:43:05 [/uverworld/html/admin/products/review.php] Warning(E_WARNING): Illegal string offset 'value' on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%34^344^344B2CC6%%review.tpl.php(221)] from ::1
+2014/07/16 04:54:48 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(459)] from ::1
+2014/07/16 04:54:48 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(636)] from ::1
+2014/07/16 04:54:48 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(700)] from ::1
+2014/07/16 04:54:48 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(712)] from ::1
+2014/07/16 04:54:48 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(756)] from ::1
+2014/07/16 04:55:15 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(459)] from ::1
+2014/07/16 04:55:15 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(636)] from ::1
+2014/07/16 04:55:15 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(700)] from ::1
+2014/07/16 04:55:15 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(712)] from ::1
+2014/07/16 04:55:15 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(756)] from ::1
+2014/07/16 04:55:53 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(459)] from ::1
+2014/07/16 04:55:53 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(636)] from ::1
+2014/07/16 04:55:53 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(700)] from ::1
+2014/07/16 04:55:53 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(712)] from ::1
+2014/07/16 04:55:53 [/uverworld/html/admin/order/edit.php] Warning(E_WARNING): number_format() expects parameter 1 to be double, string given on [/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/admin/%%C8^C80^C80C6CBD%%edit.tpl.php(756)] from ::1
+2014/07/16 06:56:07 [/uverworld/html/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 657 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php(459)] from ::1
+2014/07/16 06:56:08 [/uverworld/html/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 657 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php(459)] from ::1
+2014/07/16 07:07:43 [/uverworld/html/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 657 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php(459)] from ::1
+2014/07/16 07:07:43 [/uverworld/html/admin/total/index.php] Warning(E_WARNING): Missing argument 4 for LC_Page_Admin_Total::lfGetWhereMember(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php on line 657 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/pages/admin/total/LC_Page_Admin_Total.php(459)] from ::1
+2014/07/16 07:12:10 [/uverworld/html/admin/mail/history.php] Warning(E_WARNING): Missing argument 4 for SC_PageNavi::__construct(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/admin/mail/LC_Page_Admin_Mail_History.php on line 132 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/SC_PageNavi.php(44)] from ::1
+2014/07/16 08:24:04 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/16 10:34:15 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/17 03:54:23 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/17 03:56:32 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/17 04:15:09 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/17 04:16:02 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/17 04:16:25 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/17 04:23:29 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/18 06:50:44 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 06:59:26 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:07:43 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:08:05 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:22:32 [/uverworld/html/index.php] Fatal error(E_USER_ERROR): Smarty error: [in ./site_main.tpl line 109]: syntax error: unrecognized tag: $arrCartList.0.TotalQuantity|number_format|default:0} -->
+
+                                            </span></li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div id="top-arw"><a href="<!--{$smarty.const.ROOT_URLPATH (Smarty_Compiler.class.php, line 446) on [/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093)] from ::1
+customer_id = 
+/Applications/MAMP/htdocs/uverworld/html/index.php(33): LC_Page_Index_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/LC_Page_Index_Ex.php(56): LC_Page_Index->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page_Index.php(56): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1263): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%F1^F15^F158E3F4%%site_frame.tpl.php(113): Smarty->_smarty_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1867): Smarty->_compile_resource
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1422): Smarty->_compile_source
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1489): Smarty_Compiler->_compile_file
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(312): Smarty_Compiler->_compile_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(446): Smarty_Compiler->_syntax_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(2256): Smarty->_trigger_fatal_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1815): Smarty->trigger_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093): trigger_error
+2014/07/18 07:22:34 [/uverworld/html/index.php] Fatal error(E_USER_ERROR): Smarty error: [in ./site_main.tpl line 109]: syntax error: unrecognized tag: $arrCartList.0.TotalQuantity|number_format|default:0} -->
+
+                                            </span></li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div id="top-arw"><a href="<!--{$smarty.const.ROOT_URLPATH (Smarty_Compiler.class.php, line 446) on [/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093)] from ::1
+customer_id = 
+/Applications/MAMP/htdocs/uverworld/html/index.php(33): LC_Page_Index_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/LC_Page_Index_Ex.php(56): LC_Page_Index->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page_Index.php(56): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1263): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%F1^F15^F158E3F4%%site_frame.tpl.php(113): Smarty->_smarty_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1867): Smarty->_compile_resource
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1422): Smarty->_compile_source
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1489): Smarty_Compiler->_compile_file
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(312): Smarty_Compiler->_compile_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(446): Smarty_Compiler->_syntax_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(2256): Smarty->_trigger_fatal_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1815): Smarty->trigger_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093): trigger_error
+2014/07/18 07:38:26 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:39:24 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:40:29 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:41:03 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/18 07:58:15 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
