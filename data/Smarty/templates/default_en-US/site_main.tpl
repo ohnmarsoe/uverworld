@@ -159,27 +159,7 @@
 
                 <!--{* ▼RIGHT COLUMN *}-->
                         <!-- ec menu -SMP -->
-            <nav id="ec-nav">
-            <div class="line-inner">
-
-            <section id="ec-nav-ecbtnlist" class="ec-menulist">
-                <!--{if $arrPageLayout.RightNavi|@count > 0}-->
-                                <!--{* ▼右ナビ *}-->
-                                <!--{foreach key=RightNaviKey item=RightNaviItem from=$arrPageLayout.RightNavi}-->
-                                        <!-- ▼<!--{$RightNaviItem.bloc_name}--> -->
-                                        <!--{if $RightNaviItem.php_path != ""}-->
-                                                <!--{include_php file=$RightNaviItem.php_path items=$RightNaviItem}-->
-                                        <!--{else}-->
-                                                <!--{include file=$RightNaviItem.tpl_path items=$RightNaviItem}-->
-                                        <!--{/if}-->
-                                        <!-- ▲<!--{$RightNaviItem.bloc_name}--> -->
-                                <!--{/foreach}-->
-                                <!--{* ▲右ナビ *}-->
-                <!--{/if}-->
-            </section><!-- line-sec-ecbtnlist -->
-
-            </div>
-            </nav>
+            
 
             </section>
                         <!-- ↑メインエリア -->

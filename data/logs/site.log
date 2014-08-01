@@ -1,1 +1,4 @@
 2014/07/16 03:08:41 [/uverworld/html/shopping/confirm.php] order complete. order_id=1 from ::1
+2014/07/29 04:53:45 [/uverworld/html/products/detail.php] access : user=admin123 auth=0 sid=3ac3cb3dc47ae3f1a0c5d2977aa2379c from ::1
+2014/07/29 05:00:46 [/uverworld/html/products/detail.php] access : user=admin123 auth=0 sid=3ac3cb3dc47ae3f1a0c5d2977aa2379c from ::1
+2014/07/30 04:52:35 [/uverworld/html/shopping/confirm.php] order complete. order_id=2 from ::1

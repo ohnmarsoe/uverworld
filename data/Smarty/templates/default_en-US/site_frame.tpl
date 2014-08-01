@@ -28,6 +28,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 
 <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->shared/css/style.css" type="text/css" media="all" />
+
 <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->shared/css/store.css" type="text/css" media="all" />
 
 <link rel="stylesheet" href="<!--{$TPL_URLPATH}-->css/import.css" type="text/css" media="all" />

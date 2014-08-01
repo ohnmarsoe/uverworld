@@ -89,20 +89,21 @@
 #category_area h2 {
 	vertical-align: middle;
     padding: 7px 0 0 10px;
-    border-style: solid;
+    /*border-style: solid;
     border-color: #f90 #ccc #ccc;
-    border-width: 1px 1px 1px;
+    border-width: 1px 1px 1px;*/
     font-size: 13px;
 	color: #ec5504;
-	text-shadow: 1px 1px 1px #fff;
+    border-bottom:1px solid #ccc;
+	/*text-shadow: 1px 1px 1px #fff;
     box-shadow: 0 0 1px 1px #fff inset;
 background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffffff 0%, #e3e3e3 100%); /* FF3.6+ */
-background: -webkit-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ffffff 0%,#e3e3e3 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+/*background: -moz-linear-gradient(top,  #ffffff 0%, #e3e3e3 100%); /* FF3.6+ */
+/*background: -webkit-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* Opera 11.10+ */
+/*background: -ms-linear-gradient(top,  #ffffff 0%,#e3e3e3 100%); /* IE10+ */
+/*background: linear-gradient(to bottom,  #ffffff 0%,#e3e3e3 100%); /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
 zoom: 1;	
 }
 
@@ -255,7 +256,7 @@ div#bottomcolumn {
 ▼カテゴリ
 =============================================== */
 #category_area .block_body {
-    background-color: #fffaf0;
+   /* background-color: #fffaf0;*/
 }
 
 #category_area li {
@@ -269,7 +270,7 @@ div#bottomcolumn {
     padding: 0 3px 8px 20px ;
 }
 #category_area li.level1 p {
-    background: url("../img/icon/ico_arrow_01.gif") 3px 1px no-repeat;
+   background: url("../img/icon/ico_arrow_01.gif") 3px 1px no-repeat;
 }
 #category_area li.level1 li p {
     background: url("../img/icon/ico_level.gif") 7px 1px no-repeat;

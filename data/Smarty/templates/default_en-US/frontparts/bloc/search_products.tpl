@@ -21,21 +21,15 @@
  *}-->
 
 <div class="block_outer">
+   
     <div id="search_area">
-    <h2><img src="<!--{$TPL_URLPATH}-->img/title/icon_bloc_search.gif" alt="" /><span class="title">Search</span></h2>
+    <h2><!--  <img src="<!--{$TPL_URLPATH}-->img/title/icon_bloc_search.gif" alt="" /> --><span class="title">Search</span></h2>
         <div class="block_body">
             <!--検索フォーム-->
             <form name="search_form" id="search_form" method="get" action="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
             <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
-            <dl class="formlist">
-                <dt>Product categories</dt>
-                <dd><input type="hidden" name="mode" value="search" />
-                <select name="category_id" class="box145">
-                    <option label="All products" value="">All products</option>
-                    <!--{html_options options=$arrCatList selected=$category_id}-->
-                </select>
-                </dd>
-            </dl>
+            
+                
             <dl class="formlist">
                 <!--{if $arrMakerList}-->
                 <dt>Manufacturers</dt>
@@ -45,14 +39,24 @@
                 </select>
                 </dd>
             </dl>
-            <dl class="formlist">
+           
                 <!--{/if}-->
-                <dt>Product name</dt>
-                <dd><input type="text" name="name" class="box140" maxlength="50" value="<!--{$smarty.get.name|h}-->" /></dd>
-            </dl>
+                 <span class="search-input-text"><input type="text" name="name" class="plchldr" maxlength="50" value="<!--{$smarty.get.name|h}-->" /> </span>
+
+                 <div class="btnlist-slidebox close">
+                            <h2><span>キーワード</span><a href="#"></a></h2>
+                <div class="btnlist" style="display: none;">
+                 <input type="hidden" name="mode" value="search" />
+                <select name="category_id" class="box145">
+                    <option label="All products" value="">All products</option>
+                    <!--{html_options options=$arrCatList selected=$category_id}-->
+                </select>
+                </div>
+                </div>
+            
             <p class="btn">
-				<button class="bt02" name="search">Search</button>
-			</p>
+                <button class="bt02" name="search">Search</button>
+            </p>
             </form>
         </div>
     </div>

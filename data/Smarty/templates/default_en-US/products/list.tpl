@@ -80,7 +80,7 @@
     </form>
 
     <!--★タイトル★-->
-    <h2 class="title"><!--{$tpl_subtitle|h}--></h2>
+    <!-- <h2><!--{$tpl_subtitle|h}--></h2> -->
 
     <!--▼検索条件-->
     <!--{if $tpl_subtitle == "Search results"}-->
@@ -122,150 +122,67 @@
     <!--{/capture}-->
     <!--▲ページナビ(本文)-->
 
+        <div id="ec-item-list" class="item-list">
+                                <h2><!--{$tpl_subtitle|h}--></h2>
+                                
+                                <h3><span class="attention">23</span>点の商品があります</h3>
+                                
+                                <ul class="clearfix">
+                                    
     <!--{foreach from=$arrProducts item=arrProduct name=arrProducts}-->
 
-        <!--{if $smarty.foreach.arrProducts.first}-->
-            <!--▼件数-->
-            <div>
-                There are <span class="attention"><!--{$tpl_linemax}--></span> products.
-            </div>
-            <!--▲件数-->
-
-            <!--▼ページナビ(上部)-->
-            <form name="page_navi_top" id="page_navi_top" action="?">
-                <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
-                <!--{if $tpl_linemax > 0}--><!--{$smarty.capture.page_navi_body|smarty:nodefaults}--><!--{/if}-->
-            </form>
-            <!--▲ページナビ(上部)-->
-        <!--{/if}-->
-
-        <!--{assign var=id value=$arrProduct.product_id}-->
-        <!--{assign var=arrErr value=$arrProduct.arrErr}-->
-        <!--▼商品-->
-        <form name="product_form<!--{$id|h}-->" action="?" onsubmit="return false;">
-        <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
-        <div class="list_area clearfix">
-            <a name="product<!--{$id|h}-->"></a>
-            <div class="listphoto">
-                <!--★画像★-->
-                <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->">
-                    <img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_list_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" class="picture" /></a>
-            </div>
-
-            <div class="listrightbloc">
-                <!--▼商品ステータス-->
-                <!--{if count($productStatus[$id]) > 0}-->
-                    <ul class="status_icon clearfix">
-                        <!--{foreach from=$productStatus[$id] item=status}-->
-							<li class="status_<!--{$status}-->">
-							   <span id="icon<!--{$status}-->"><!--{$arrSTATUS[$status]}--></span>
-							</li>						
-                        <!--{/foreach}-->
-                    </ul>
-                <!--{/if}-->
-                <!--▲商品ステータス-->
-
-                <!--★商品名★-->
-                <h3>
-                    <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->"><!--{$arrProduct.name|h}--></a>
-                </h3>
-                <!--★価格★-->
-                <div class="pricebox sale_price">
-                    <!--{$smarty.const.SALE_PRICE_TITLE}--> (tax included):
-                    <span class="price">
-                        &#036;
-                        <span id="price02_default_<!--{$id}-->"><!--{strip}-->
-                            <!--{if $arrProduct.price02_min_inctax == $arrProduct.price02_max_inctax}-->
-                                <!--{$arrProduct.price02_min_inctax|number_format}-->
-                            <!--{else}-->
-                                <!--{$arrProduct.price02_min_inctax|number_format}--> - <!--{$arrProduct.price02_max_inctax|number_format}-->
-                            <!--{/if}-->
-                        </span><span id="price02_dynamic_<!--{$id}-->"></span><!--{/strip}-->
-                        </span>
-                </div>
-
-                <!--★コメント★-->
-                <div class="listcomment"><!--{$arrProduct.main_list_comment|h|nl2br}--></div>
-
-                <!--★商品詳細を見る★-->
-                <div class="detail_btn">
-                    <!--{assign var=name value="detail`$id`"}-->
-                    <a class="bt02" href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->">View product details</a>
-                </div>
-
-                <!--▼買い物かご-->
-                <input type="hidden" name="product_id" value="<!--{$id|h}-->" />
-                <input type="hidden" name="product_class_id" id="product_class_id<!--{$id|h}-->" value="<!--{$tpl_product_class_id[$id]}-->" />
-
-                <div class="cart_area clearfix">
-                    <!--{if $tpl_stock_find[$id]}-->
-                        <!--{if $tpl_classcat_find1[$id]}-->
-                            <div class="classlist">
-                                <dl class="size01 clearfix">
-                                        <!--▼規格1-->
-                                        <dt><!--{$tpl_class_name1[$id]|h}-->:</dt>
-                                        <dd>
-                                            <select name="classcategory_id1" style="<!--{$arrErr.classcategory_id1|sfGetErrorColor}-->">
-                                                <!--{html_options options=$arrClassCat1[$id] selected=$arrProduct.classcategory_id1}-->
-                                            </select>
-                                            <!--{if $arrErr.classcategory_id1 != ""}-->
-                                                <p class="attention">* Input <!--{$tpl_class_name1[$id]}-->.</p>
-                                            <!--{/if}-->
-                                        </dd>
-                                        <!--▲規格1-->
-                                </dl>
-                                <!--{if $tpl_classcat_find2[$id]}-->
-                                    <dl class="size02 clearfix">
-                                        <!--▼規格2-->
-                                        <dt><!--{$tpl_class_name2[$id]|h}-->:</dt>
-                                        <dd>
-                                            <select name="classcategory_id2" style="<!--{$arrErr.classcategory_id2|sfGetErrorColor}-->">
-                                            </select>
-                                            <!--{if $arrErr.classcategory_id2 != ""}-->
-                                                <p class="attention">* Input <!--{$tpl_class_name2[$id]}-->.</p>
-                                            <!--{/if}-->
-                                        </dd>
-                                        <!--▲規格2-->
-                                    </dl>
-                                <!--{/if}-->
-                            </div>
-                        <!--{/if}-->
-                        <div class="cartin clearfix">
-                            <div class="quantity">
-                                Quantity:<input type="text" name="quantity" class="box" value="<!--{$arrProduct.quantity|default:1|h}-->" maxlength="<!--{$smarty.const.INT_LEN}-->" style="<!--{$arrErr.quantity|sfGetErrorColor}-->" />
-                                <!--{if $arrErr.quantity != ""}-->
-                                    <br /><span class="attention"><!--{$arrErr.quantity}--></span>
-                                <!--{/if}-->
-                            </div>
-                            <div class="cartin_btn">
-                                <!--★カゴに入れる★-->
-                                <div id="cartbtn_default_<!--{$id}-->">
-									<button class="bt03" onclick="fnInCart(this.form); return false;">Place in cart</button>
-                                </div>
-                                <div class="attention" id="cartbtn_dynamic_<!--{$id}-->"></div>
-                            </div>
-                        </div>
-                    <!--{else}-->
-                        <div class="cartbtn attention">This product is currently sold out. We apologize for the inconvenience.</div>
-                    <!--{/if}-->
-                </div>
-                <!--▲買い物かご-->
-            </div>
-        </div>
-        </form>
-        <!--▲商品-->
-
-        <!--{if $smarty.foreach.arrProducts.last}-->
-            <!--▼ページナビ(下部)-->
-            <form name="page_navi_bottom" id="page_navi_bottom" action="?">
-                <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
-                <!--{if $tpl_linemax > 0}--><!--{$smarty.capture.page_navi_body|smarty:nodefaults}--><!--{/if}-->
-            </form>
-            <!--▲ページナビ(下部)-->
-        <!--{/if}-->
+                                <!--{assign var=id value=$arrProduct.product_id}-->
+                                <!--{assign var=arrErr value=$arrProduct.arrErr}-->
+                                <!--▼商品-->
+                                
+                                <li>
+                                    <div class="img-box">
+                                        <a href="#item"><span><img src="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct.main_list_image|sfNoImageMainList|h}-->" alt="<!--{$arrProduct.name|h}-->" width="268" height="268" alt="image" /></span></a>
+                                        <div class="img-over">
+                                            <div class="inner">
+                                                <ul>
+                                                    <li>
+                                                        <input type="hidden" name="quantity" class="box" value="<!--{$arrProduct.quantity|default:1|h}-->" maxlength="<!--{$smarty.const.INT_LEN}-->" style="<!--{$arrErr.quantity|sfGetErrorColor}-->" />
+                                                        <a href="#cart"><img src="<!--{$TPL_URLPATH}-->shared/img/store/img_over_cart.png" width="108" height="128" alt="zoom" /></a></li>
+                                                    <li><a href="#item"><img src="<!--{$TPL_URLPATH}-->shared/img/store/img_over_look.png" width="108" height="128" alt="zoom" /></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+                                    <h3><a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->"><!--{$arrProduct.name|h}--></a></h3>
+                                    <div class="price-box">
+                                       <!--  <p>¥&nbsp;2,500<span class="tax">（税込）</span></p> -->
+                                        <span class="price">
+                                            &#036;
+                                            <span id="price02_default_<!--{$id}-->"><!--{strip}-->
+                                                <!--{if $arrProduct.price02_min_inctax == $arrProduct.price02_max_inctax}-->
+                                                    <!--{$arrProduct.price02_min_inctax|number_format}-->
+                                                <!--{else}-->
+                                                    <!--{$arrProduct.price02_min_inctax|number_format}--> - <!--{$arrProduct.price02_max_inctax|number_format}-->
+                                                <!--{/if}-->
+                                            </span><span id="price02_dynamic_<!--{$id}-->"></span><!--{/strip}-->
+                                            </span>
+                                        <span class="icon">"</span>
+                                    </div>
+                                    </a>
+                                </li>
+                                
+                                
+                                
+                                
+                               
+                                
+                                
+                                
+                                
 
     <!--{foreachelse}-->
         <!--{include file="frontparts/search_zero.tpl"}-->
     <!--{/foreach}-->
+
+    </ul>
+                                
+    </div><!-- #ec-item-list -->
 
 </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2014-07-18 07:55:50
+<?php /* Smarty version 2.6.26, created on 2014-07-29 08:02:42
          compiled from ./site_main.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', './site_main.tpl', 30, false),array('modifier', 'count', './site_main.tpl', 33, false),array('modifier', 'h', './site_main.tpl', 69, false),)), $this); ?>
@@ -234,35 +234,7 @@ unset($_smarty_tpl_vars);
         </div><!-- line-inner -->
 
                                         <!-- ec menu -SMP -->
-            <nav id="ec-nav">
-            <div class="line-inner">
-
-            <section id="ec-nav-ecbtnlist" class="ec-menulist">
-                <?php if (count(((is_array($_tmp=$this->_tpl_vars['arrPageLayout']['RightNavi'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))) > 0): ?>
-                                                                <?php $_from = ((is_array($_tmp=$this->_tpl_vars['arrPageLayout']['RightNavi'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['RightNaviKey'] => $this->_tpl_vars['RightNaviItem']):
-?>
-                                        <!-- ▼<?php echo ((is_array($_tmp=$this->_tpl_vars['RightNaviItem']['bloc_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
- -->
-                                        <?php if (((is_array($_tmp=$this->_tpl_vars['RightNaviItem']['php_path'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) != ""): ?>
-                                                <?php require_once(SMARTY_CORE_DIR . 'core.smarty_include_php.php');
-smarty_core_smarty_include_php(array('smarty_file' => ((is_array($_tmp=$this->_tpl_vars['RightNaviItem']['php_path'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)), 'smarty_assign' => '', 'smarty_once' => false, 'smarty_include_vars' => array('items' => ((is_array($_tmp=$this->_tpl_vars['RightNaviItem'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))), $this); ?>
-
-                                        <?php else: ?>
-                                                <?php $_smarty_tpl_vars = $this->_tpl_vars;
-$this->_smarty_include(array('smarty_include_tpl_file' => ((is_array($_tmp=$this->_tpl_vars['RightNaviItem']['tpl_path'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)), 'smarty_include_vars' => array('items' => ((is_array($_tmp=$this->_tpl_vars['RightNaviItem'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))));
-$this->_tpl_vars = $_smarty_tpl_vars;
-unset($_smarty_tpl_vars);
- ?>
-                                        <?php endif; ?>
-                                        <!-- ▲<?php echo ((is_array($_tmp=$this->_tpl_vars['RightNaviItem']['bloc_name'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
- -->
-                                <?php endforeach; endif; unset($_from); ?>
-                                                <?php endif; ?>
-            </section><!-- line-sec-ecbtnlist -->
-
-            </div>
-            </nav>
+            
 
             </section>
                         <!-- ↑メインエリア -->

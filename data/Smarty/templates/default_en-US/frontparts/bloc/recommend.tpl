@@ -21,32 +21,35 @@
  *}-->
 
 <!--{if count($arrBestProducts) > 0}-->
-    <div class="block_outer clearfix">
-        <div id="recommend_area">
-            <h2><img src="<!--{$TPL_URLPATH}-->img/title/icon_bloc_recommend.png" alt="*" class="title_icon" /><span class="title">Recommended products</span></h2>
-            <div class="block_body clearfix">
+   <div id="ec-top-recommend" class="item-list">
+                                <h2>商品一覧</h2>
+                <ul class="clearfix">
                 <!--{foreach from=$arrBestProducts item=arrProduct name="recommend_products"}-->
-                    <div class="product_item clearfix">
-                        <div class="productImage">
-                            <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->">
-                                <img src="<!--{$smarty.const.ROOT_URLPATH}-->resize_image.php?image=<!--{$arrProduct.main_list_image|sfNoImageMainList|h}-->&amp;width=80&amp;height=80" alt="<!--{$arrProduct.name|h}-->" />
+
+                        <li>
+                                    <div class="img-box">
+                                        <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->">
+                                <img src="<!--{$smarty.const.ROOT_URLPATH}-->resize_image.php?image=<!--{$arrProduct.main_list_image|sfNoImageMainList|h}-->&amp;width=260&amp;height=260" alt="<!--{$arrProduct.name|h}-->" />
                             </a>
-                        </div>
-                        <div class="productContents">
-                            <h3>
-                                <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->"><!--{$arrProduct.name|h}--></a>
-                            </h3>
-                            <p class="sale_price">
-                                <!--{$smarty.const.SALE_PRICE_TITLE}-->(tax included): <span class="price">&#36; <!--{$arrProduct.price02_min_inctax|number_format}--></span>
-                            </p>
-                            <p class="mini comment"><!--{$arrProduct.comment|h|nl2br}--></p>
-                        </div>
-                    </div>
-                    <!--{if $smarty.foreach.recommend_products.iteration % 2 === 0}-->
+                                        <div class="img-over">
+                                            <div class="inner">
+                                                <a href="#item"><img src="<!--{$TPL_URLPATH}-->shared/img/store/img_over_zoom.png" width="108" height="128" alt="zoom" /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#">
+                                    <h3> <a href="<!--{$smarty.const.P_DETAIL_URLPATH}--><!--{$arrProduct.product_id|u}-->"><!--{$arrProduct.name|h}--></a></h3>
+                                    <div class="price-box">
+                                        <p><!--{$smarty.const.SALE_PRICE_TITLE}-->(tax included): <span class="price">&#36; <!--{$arrProduct.price02_min_inctax|number_format}--><span class="tax">（税込）</span></p>
+                                        <span class="icon">"</span>
+                                    </div>
+                                    </a>
+                                </li>
+                        <!--{if $smarty.foreach.recommend_products.iteration % 2 === 0}-->
                         <div class="clear"></div>
                     <!--{/if}-->
                 <!--{/foreach}-->
             </div>
-        </div>
     </div>
+    
 <!--{/if}-->

@@ -20,27 +20,30 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *}-->
 
-<div class="block_outer">
-    <div id="news_area">
-    <h2><img src="<!--{$TPL_URLPATH}-->img/title/icon_bloc_news.png" alt="" /><span class="title">New information</span><span class="rss"><a href="<!--{$smarty.const.ROOT_URLPATH}-->rss/<!--{$smarty.const.DIR_INDEX_PATH}-->" target="_blank"><img src="<!--{$TPL_URLPATH}-->img/button/btn_rss.jpg" alt="RSS" /></a></span></h2>
-        <div class="block_body">
-            <div class="news_contents">
+<div id="ec-top-information" class="info-list clearfix">
+    
+    <h2>Announcement</h2>
+         
             <!--{section name=data loop=$arrNews}-->
             <!--{assign var="date_array" value="-"|explode:$arrNews[data].news_date_disp}-->
-            <dl class="newslist">
-                <dt><!--{$date_array[0]}--> / <!--{$date_array[1]}--> / <!--{$date_array[2]}--></dt>
-                <dt>
-                    <a
+                <article class="post pbloc-ecinfo">
+                <div class="pbloc-inner">
+                <p class="date"><!--{$date_array[0]}--> / <!--{$date_array[1]}--> / <!--{$date_array[2]}--></p>
+                <div class="txt-box">
+                    <div class="txt-box-inner">
+
+                        <h3><a
                         <!--{if $arrNews[data].news_url}--> href="<!--{$arrNews[data].news_url}-->" <!--{if $arrNews[data].link_method eq "2"}--> target="_blank"
                             <!--{/if}-->
                         <!--{/if}-->
                     >
-                        <!--{$arrNews[data].news_title|h|nl2br}--></a>
-                </dt>
-                <dd class="mini"><!--{$arrNews[data].news_comment|h|nl2br}--></dd>
-            </dl>
+                        <!--{$arrNews[data].news_title|h|nl2br}--></a></h3>
+                        <p><!--{$arrNews[data].news_comment|h|nl2br}--></p>
+                    </div>
+                </div>
+                </div>
+                </article>
             <!--{/section}-->
-            </div>
-        </div>
-    </div>
+            
+    
 </div>

@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.26, created on 2014-07-17 07:45:35
+<?php /* Smarty version 2.6.26, created on 2014-07-29 05:06:56
          compiled from site_frame.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'site_frame.tpl', 1, false),array('modifier', 'script_escape', 'site_frame.tpl', 24, false),array('modifier', 'h', 'site_frame.tpl', 24, false),array('modifier', 'strlen', 'site_frame.tpl', 59, false),array('modifier', 'count', 'site_frame.tpl', 80, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDeclaration', 'site_frame.tpl', 1, false),array('modifier', 'script_escape', 'site_frame.tpl', 24, false),array('modifier', 'h', 'site_frame.tpl', 24, false),array('modifier', 'strlen', 'site_frame.tpl', 60, false),array('modifier', 'count', 'site_frame.tpl', 81, false),)), $this); ?>
 <?php echo GC_Utils_Ex::printXMLDeclaration(array(), $this);?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -15,6 +15,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'printXMLDec
 
 <link rel="stylesheet" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 shared/css/style.css" type="text/css" media="all" />
+
 <link rel="stylesheet" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 shared/css/store.css" type="text/css" media="all" />
 

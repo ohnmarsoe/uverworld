@@ -141,3 +141,237 @@ customer_id =
 2014/07/18 07:40:29 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
 2014/07/18 07:41:03 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
 2014/07/18 07:58:15 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 04:44:50 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:50 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:50 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:50 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:50 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:50 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:54 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:54 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:54 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:54 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:54 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:44:54 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:53:31 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:53:31 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:53:31 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:53:31 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:53:31 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:53:31 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:58 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:58 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:58 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:58 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:58 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:56:58 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 04:59:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:53 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 05:01:56 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:21:52 [/uverworld/html/admin/ownersstore/index.php] Warning(E_WARNING): file_exists() expects parameter 1 to be a valid path, string given on [/Applications/MAMP/htdocs/uverworld/data/module/Archive/Tar.php(1609)] from ::1
+2014/07/29 07:29:36 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:29:36 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:29:36 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:29:36 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:29:36 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:29:36 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:25 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:25 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:25 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:25 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:25 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:25 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:30 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:30 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:30 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:30 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:30 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:30 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:40 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:40 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:40 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:40 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:40 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:40 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 07:30:43 [/uverworld/html/admin/products/product.php] Warning(E_WARNING): array_diff(): Argument #1 is not an array on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(63)] from ::1
+2014/07/29 08:25:56 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:37:23 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:40:33 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:48:58 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:49:42 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:52:01 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:52:33 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:56:07 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 08:59:20 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 09:00:27 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/29 10:05:21 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 03:49:42 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 03:50:59 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 04:05:56 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 04:49:31 [/uverworld/html/entry/index.php] Warning(E_WARNING): Missing argument 2 for SC_Helper_Mail::sfMakeSubject(), called in /Applications/MAMP/htdocs/uverworld/data/class/pages/entry/LC_Page_Entry.php on line 252 and defined on [/Applications/MAMP/htdocs/uverworld/data/class/helper/SC_Helper_Mail.php(250)] from ::1
+2014/07/30 04:50:07 [/uverworld/html/shopping/deliv.php] Warning(E_WARNING): array_keys() expects parameter 1 to be array, null given on [/Applications/MAMP/htdocs/uverworld/data/class/pages/shopping/LC_Page_Shopping_Deliv.php(156)] from ::1
+2014/07/30 05:21:56 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:01:43 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:02:25 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:04:28 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:04:32 [/uverworld/html/index.php] Fatal error(E_USER_ERROR): Smarty error: [in /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/recommend.tpl line 31]: syntax error: unrecognized tag: $arrProduct.main_list_image|sfNoImageMainList|h}>&amp;width=268&amp;height=268" width="268" height="268" alt="image" />
+                                        <div class="img-over">
+                                            <div class="inner">
+                                                <a href="#item"><img src="<!--{$TPL_URLPATH (Smarty_Compiler.class.php, line 446) on [/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093)] from ::1
+customer_id = 2
+/Applications/MAMP/htdocs/uverworld/html/index.php(33): LC_Page_Index_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/LC_Page_Index_Ex.php(56): LC_Page_Index->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page_Index.php(56): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1263): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%F1^F15^F158E3F4%%site_frame.tpl.php(114): Smarty->_smarty_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1869): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%58^587^5876E692%%site_main.tpl.php(218): smarty_core_smarty_include_php
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1923): include
+/Applications/MAMP/htdocs/uverworld/html/frontparts/bloc/recommend.php(35): LC_Page_FrontParts_Bloc_Recommend_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend_Ex.php(56): LC_Page_FrontParts_Bloc_Recommend->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Recommend.php(55): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1261): Smarty->_compile_resource
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1422): Smarty->_compile_source
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1489): Smarty_Compiler->_compile_file
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(312): Smarty_Compiler->_compile_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(446): Smarty_Compiler->_syntax_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(2256): Smarty->_trigger_fatal_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1815): Smarty->trigger_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093): trigger_error
+2014/07/30 07:04:58 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:05:41 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:06:07 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:20:40 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:23:00 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:23:49 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:26:23 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:27:33 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:27:37 [/uverworld/html/index.php] Fatal error(E_USER_ERROR): Smarty error: [in /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl line 40]: syntax error: unclosed tag \{section} (opened line 25). (Smarty_Compiler.class.php, line 317) on [/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093)] from ::1
+customer_id = 2
+/Applications/MAMP/htdocs/uverworld/html/index.php(33): LC_Page_Index_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/LC_Page_Index_Ex.php(56): LC_Page_Index->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page_Index.php(56): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1263): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%F1^F15^F158E3F4%%site_frame.tpl.php(114): Smarty->_smarty_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1869): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%58^587^5876E692%%site_main.tpl.php(218): smarty_core_smarty_include_php
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1923): include
+/Applications/MAMP/htdocs/uverworld/html/frontparts/bloc/news.php(34): LC_Page_FrontParts_Bloc_News_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_News_Ex.php(56): LC_Page_FrontParts_Bloc_News->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_News.php(55): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1261): Smarty->_compile_resource
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1422): Smarty->_compile_source
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1489): Smarty_Compiler->_compile_file
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(317): Smarty_Compiler->_syntax_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(2256): Smarty->_trigger_fatal_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1815): Smarty->trigger_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093): trigger_error
+2014/07/30 07:28:03 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:33:06 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:33:09 [/uverworld/html/index.php] Fatal error(E_USER_ERROR): Smarty error: [in /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl line 36]: syntax error: unidentified token '¼_url' (Smarty_Compiler.class.php, line 1410) on [/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093)] from ::1
+customer_id = 2
+/Applications/MAMP/htdocs/uverworld/html/index.php(33): LC_Page_Index_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/LC_Page_Index_Ex.php(56): LC_Page_Index->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page_Index.php(56): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1263): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%F1^F15^F158E3F4%%site_frame.tpl.php(114): Smarty->_smarty_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1869): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%58^587^5876E692%%site_main.tpl.php(218): smarty_core_smarty_include_php
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1923): include
+/Applications/MAMP/htdocs/uverworld/html/frontparts/bloc/news.php(34): LC_Page_FrontParts_Bloc_News_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_News_Ex.php(56): LC_Page_FrontParts_Bloc_News->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_News.php(55): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1261): Smarty->_compile_resource
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1422): Smarty->_compile_source
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1489): Smarty_Compiler->_compile_file
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(312): Smarty_Compiler->_compile_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(473): Smarty_Compiler->_compile_if_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(1410): Smarty_Compiler->_syntax_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(2256): Smarty->_trigger_fatal_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1815): Smarty->trigger_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093): trigger_error
+2014/07/30 07:33:43 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:33:47 [/uverworld/html/index.php] Fatal error(E_USER_ERROR): Smarty error: [in /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl line 36]: syntax error: unidentified token '¼_url' (Smarty_Compiler.class.php, line 1410) on [/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093)] from ::1
+customer_id = 2
+/Applications/MAMP/htdocs/uverworld/html/index.php(33): LC_Page_Index_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/LC_Page_Index_Ex.php(56): LC_Page_Index->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page_Index.php(56): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1263): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%F1^F15^F158E3F4%%site_frame.tpl.php(114): Smarty->_smarty_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1869): include
+/Applications/MAMP/htdocs/uverworld/data/Smarty/templates_c/default_en-US/%%58^587^5876E692%%site_main.tpl.php(218): smarty_core_smarty_include_php
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/internals/core.smarty_include_php.php(40): Smarty->_include
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1923): include
+/Applications/MAMP/htdocs/uverworld/html/frontparts/bloc/news.php(34): LC_Page_FrontParts_Bloc_News_Ex->process
+/Applications/MAMP/htdocs/uverworld/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_News_Ex.php(56): LC_Page_FrontParts_Bloc_News->process
+/Applications/MAMP/htdocs/uverworld/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_News.php(55): LC_Page->sendResponse
+/Applications/MAMP/htdocs/uverworld/data/class/pages/LC_Page.php(144): SC_Display->prepare
+/Applications/MAMP/htdocs/uverworld/data/class/SC_Display.php(77): SC_View->getResponse
+/Applications/MAMP/htdocs/uverworld/data/class/SC_View.php(100): Smarty->fetch
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1261): Smarty->_compile_resource
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1422): Smarty->_compile_source
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1489): Smarty_Compiler->_compile_file
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(312): Smarty_Compiler->_compile_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(473): Smarty_Compiler->_compile_if_tag
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(1410): Smarty_Compiler->_syntax_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty_Compiler.class.php(2256): Smarty->_trigger_fatal_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1815): Smarty->trigger_error
+/Applications/MAMP/htdocs/uverworld/data/module/Smarty/libs/Smarty.class.php(1093): trigger_error
+2014/07/30 07:34:26 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1
+2014/07/30 07:35:25 [/uverworld/html/admin/design/bloc.php] Warning(E_WARNING): preg_match(): Compilation failed: missing terminating ] for character class at offset 3 on [/Applications/MAMP/htdocs/uverworld/data/class/SC_CheckError.php(807)] from ::1

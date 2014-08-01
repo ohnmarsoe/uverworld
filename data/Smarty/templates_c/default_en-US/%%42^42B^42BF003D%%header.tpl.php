@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2014-07-18 06:43:51
+<?php /* Smarty version 2.6.26, created on 2014-07-30 07:00:35
          compiled from /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/header.tpl', 29, false),)), $this); ?>

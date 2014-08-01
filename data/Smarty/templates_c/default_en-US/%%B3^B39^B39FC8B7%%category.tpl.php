@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2014-07-15 11:06:08
+<?php /* Smarty version 2.6.26, created on 2014-07-29 08:26:01
          compiled from /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/category.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/category.tpl', 30, false),array('modifier', 'h', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/category.tpl', 54, false),array('modifier', 'default', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/category.tpl', 54, false),)), $this); ?>
@@ -10,8 +10,8 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_esca
 //]]></script>
 <div class="block_outer">
     <div id="category_area">
-		<h2><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-img/title/icon_bloc_category.gif" alt="" /><span class="title">Categories</span></h2>
+		<h2><!-- <img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+img/title/icon_bloc_category.gif" alt="" /> --> <span class="title">Categories</span></h2>
         <div class="block_body">
             <?php echo '<ul id="categorytree">'; ?><?php $this->assign('preLev', 1); ?><?php echo ''; ?><?php $this->assign('firstdone', 0); ?><?php echo ''; ?><?php unset($this->_sections['cnt']);
 $this->_sections['cnt']['name'] = 'cnt';
@@ -86,4 +86,4 @@ $this->_sections['d']['last']       = ($this->_sections['d']['iteration'] == $th
 
         </div>
     </div>
-</div>
+</div>

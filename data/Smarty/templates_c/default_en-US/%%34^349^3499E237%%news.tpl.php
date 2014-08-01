@@ -1,17 +1,12 @@
-<?php /* Smarty version 2.6.26, created on 2014-07-15 11:06:08
+<?php /* Smarty version 2.6.26, created on 2014-07-30 07:35:30
          compiled from /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 25, false),array('modifier', 'explode', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 29, false),array('modifier', 'h', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 38, false),array('modifier', 'nl2br', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 38, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 27, false),array('modifier', 'explode', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 28, false),array('modifier', 'h', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 40, false),array('modifier', 'nl2br', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/frontparts/bloc/news.tpl', 40, false),)), $this); ?>
 
-<div class="block_outer">
-    <div id="news_area">
-    <h2><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-img/title/icon_bloc_news.png" alt="" /><span class="title">New information</span><span class="rss"><a href="<?php echo ((is_array($_tmp=@ROOT_URLPATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-rss/<?php echo ((is_array($_tmp=@DIR_INDEX_PATH)) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-" target="_blank"><img src="<?php echo ((is_array($_tmp=$this->_tpl_vars['TPL_URLPATH'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-img/button/btn_rss.jpg" alt="RSS" /></a></span></h2>
-        <div class="block_body">
-            <div class="news_contents">
+<div id="ec-top-information" class="info-list clearfix">
+    
+    <h2>Announcement</h2>
+         
             <?php unset($this->_sections['data']);
 $this->_sections['data']['name'] = 'data';
 $this->_sections['data']['loop'] = is_array($_loop=((is_array($_tmp=$this->_tpl_vars['arrNews'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))) ? count($_loop) : max(0, (int)$_loop); unset($_loop);
@@ -37,26 +32,30 @@ $this->_sections['data']['first']      = ($this->_sections['data']['iteration'] 
 $this->_sections['data']['last']       = ($this->_sections['data']['iteration'] == $this->_sections['data']['total']);
 ?>
             <?php $this->assign('date_array', ((is_array($_tmp="-")) ? $this->_run_mod_handler('explode', true, $_tmp, ((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_date_disp'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))) : explode($_tmp, ((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_date_disp'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))))); ?>
-            <dl class="newslist">
-                <dt><?php echo ((is_array($_tmp=$this->_tpl_vars['date_array'][0])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
+                <article class="post pbloc-ecinfo">
+                <div class="pbloc-inner">
+                <p class="date"><?php echo ((is_array($_tmp=$this->_tpl_vars['date_array'][0])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
  / <?php echo ((is_array($_tmp=$this->_tpl_vars['date_array'][1])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
  / <?php echo ((is_array($_tmp=$this->_tpl_vars['date_array'][2])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
-</dt>
-                <dt>
-                    <a
+</p>
+                <div class="txt-box">
+                    <div class="txt-box-inner">
+
+                        <h3><a
                         <?php if (((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_url'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp))): ?> href="<?php echo ((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_url'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)); ?>
 " <?php if (((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['link_method'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)) == '2'): ?> target="_blank"
                             <?php endif; ?>
                         <?php endif; ?>
                     >
                         <?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_title'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)))) ? $this->_run_mod_handler('nl2br', true, $_tmp) : smarty_modifier_nl2br($_tmp)); ?>
-</a>
-                </dt>
-                <dd class="mini"><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_comment'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)))) ? $this->_run_mod_handler('nl2br', true, $_tmp) : smarty_modifier_nl2br($_tmp)); ?>
-</dd>
-            </dl>
+</a></h3>
+                        <p><?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['arrNews'][$this->_sections['data']['index']]['news_comment'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)))) ? $this->_run_mod_handler('nl2br', true, $_tmp) : smarty_modifier_nl2br($_tmp)); ?>
+</p>
+                    </div>
+                </div>
+                </div>
+                </article>
             <?php endfor; endif; ?>
-            </div>
-        </div>
-    </div>
-</div>
+            
+    
+</div>

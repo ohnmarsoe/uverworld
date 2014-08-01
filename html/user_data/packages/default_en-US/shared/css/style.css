@@ -4083,3 +4083,8 @@ section.line3 .line-inner {
 .hover-area p {
   display: inline-block;
 }
+
+table td{
+  border-right:none !important;
+  border-bottom:none !important;
+}

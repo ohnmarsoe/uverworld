@@ -816,11 +816,11 @@ html:not(:only-child:only-child) #label-cart .count span {
 
 #main_image,
 #ec-inner {
-  padding: 40px 85px 70px;
+  padding: 40px 40px 40px;
 }
 
 #main_image + #ec-inner {
-  padding: 37px 85px 70px;
+  padding: 37px 40px 40px;
 }
 
 @media screen and (max-width: 1350px) {
@@ -994,7 +994,7 @@ html:not(:only-child:only-child) #label-cart .count span {
 
 #ec-inner .item-list .img-over .inner > a > img {
   display: block;
-  width: 43.6%;
+  width: 40.6%;
   margin: 0 28.2%;
 }
 
@@ -1107,7 +1107,8 @@ html:not(:only-child:only-child) #label-cart .count span {
 /*.item-list */
 #ec-inner .item-list > ul > li {
   float: left;
-  width: 30.866%;
+  width: 28.866%;
+  width: 29.600%;
   margin-right: 3.7%;
   cursor: pointer;
   margin-bottom: 35px;
@@ -2022,6 +2023,28 @@ html:not(:only-child:only-child) #ec-inner .item-list ul li .price-box p {
   margin: 0 auto 10px;
   padding-top: 8px;
 }
+
+.btn button{
+
+  cursor: pointer;
+  position: relative;
+  display: block;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 10px 13px 25px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: background-color 0.3s ease 0s;
+  width: 100%;
+  height: auto;
+  border: 0px none;
+  background-color: #F53B85;
+  box-shadow: none;
+}
+
 
 #cart-area-wrap .cart-area .btn-login {
   padding-top: 8px;

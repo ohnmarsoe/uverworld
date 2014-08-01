@@ -1,30 +1,12 @@
-<!--{*
-/*
- * This file is part of EC-CUBE
- *
- * Copyright(c) 2000-2012 LOCKON CO.,LTD. All Rights Reserved.
- *
- * http://www.lockon.co.jp/
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
- * as published by the Free Software Foundation; either version 2
- * of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
- */
-*}-->
+<?php /* Smarty version 2.6.26, created on 2014-07-30 03:51:08
+         compiled from /Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/guide/privacy.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'script_escape', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/guide/privacy.tpl', 27, false),array('modifier', 'h', '/Applications/MAMP/htdocs/uverworld/html/../data/Smarty/templates/default_en-US/guide/privacy.tpl', 27, false),)), $this); ?>
 
 <div id="undercolumn">
     <!-- <div id="undercolumn_entry">
-        <h2 class="title"><!--{$tpl_title|h}--></h2>
+        <h2 class="title"><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['tpl_title'])) ? $this->_run_mod_handler('script_escape', true, $_tmp) : smarty_modifier_script_escape($_tmp)))) ? $this->_run_mod_handler('h', true, $_tmp) : smarty_modifier_h($_tmp)); ?>
+</h2>
         <!-- <p class="message">Definition of personal information</p>
         <p>Refers to information related to individual customers (hereinafter referred to as "personal information") from which it is possible to distinguish the customer, such as the customer's name, address, phone number, etc. Includes information from which an individual can be distinguished by verifying it with other information.</p>
 
